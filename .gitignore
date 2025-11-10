@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environment ---
+.env
+venv/
+env/
+.venv/
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+*.spec
+
+# --- PyInstaller ---
+# Arquivos gerados na compilação
+*.manifest
+*.spec
+
+# --- Logs / temporários ---
+*.log
+*.tmp
+*.bak
+
+# --- IDEs e editores ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Sistema operacional ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Outros ---
+# Arquivos gerados automaticamente
+__MACOSX/
+codTeste.txt
