@@ -3,13 +3,8 @@ import os
 import pandas as pd
 from tkinter import Tk, filedialog
 
-Tk().withdraw()  # Oculta a janela principal do Tkinter
+Tk().withdraw()
 pasta = filedialog.askdirectory(title="Selecione a pasta onde estão as NFs")
-
-# Se o usuário cancelar, encerra o programa
-if not pasta:
-    print("Nenhuma pasta selecionada. Encerrando...")
-    exit()
 
 def pegar_infos(arquivo, valores):
     
